@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.titrePanneau {
+    background-color: #346077;
+    text-align: center;
+    height: 200px;
+    padding-top: 20px;
+}
+.logoSite {
+    width: 180px;
+    position: absolute;
+    left: 50px;
+}
+h1 {
+    color: aliceblue;
+    font-size: 75px;
+    font-weight: 200;
+    margin: 0px;
+}
+.formulaireDeConnexion {
+    text-align: center;
+}
+.placeholder {
+    border: 2px solid black;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 35px;
+    background-color: rgb(207, 207, 207);
+}
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.seConnecter {
+    border: 2px solid black;
+    background-color: #346077;
+    color: aliceblue;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.motDePasseOublie {
+    height: 75px;
+    width: 250px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+        
+    }
+    .titrePanneau {
+        padding-top: 100px;
+    }
+    .logoSite {
+        left: 30%;
+        top: 0;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    .titrePanneau {
+        height: 300px;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .titrePanneau {
+        padding-top: 100px;
+    }
+    .logoSite {
+        left: 42%;
+        top: 0;
+    }
+}
